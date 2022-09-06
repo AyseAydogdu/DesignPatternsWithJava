@@ -10,7 +10,7 @@ public class PrototypePattern {
     public static void main(String[] args) throws CloneNotSupportedException{
        Person arife = new Person();
        Person ayse = arife.clone();
-       arife.name = "Ahmet";
+       arife.name = "Arife";
        ayse.name = "Ayse";
         System.out.println(ayse.hashCode()+" "+ayse.name);
         System.out.println(arife.hashCode()+" "+arife.name);
